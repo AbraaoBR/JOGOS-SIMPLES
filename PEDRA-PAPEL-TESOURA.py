@@ -1,9 +1,8 @@
 # JOGOS-SIMPLES
-
+import pygame
 from random import randint
 from time import sleep
 from termcolor import colored
-import pygame
 
 Jogo = ['PEDRA', 'PAPEL', 'TESOURA']
 cont_de_partidas = [0]
@@ -14,6 +13,7 @@ print(colored('PEDRA PAPEL E TESOURA', 'magenta'))
 pygame.init()
 pygame.mixer.music.load('C:/Users/abraa\OneDrive\Documentos/voz-do-narrador/escript.mp3')
 pygame.mixer.music.play(1)
+
 while True:
     # PARTE VISUAL
     print(colored('-' * 30, 'green'))
